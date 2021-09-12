@@ -1,6 +1,6 @@
 ---
 permalink: /research/
-layout: splash
+layout: single
 ---
 
 
