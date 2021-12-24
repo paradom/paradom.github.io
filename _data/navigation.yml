@@ -1,9 +1,7 @@
 main:
-  - title: "About"
-    url: /about/
   - title: "Research"
     url: /research/
   - title: "Posts"
     url: /pages/
   - title: "CV"
-    url: /CV/
+    url: /assets/docs/CV.pdf
