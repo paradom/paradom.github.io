@@ -7,6 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: paradom
+teaser: /assets/images/mountains.jpeg
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -19,14 +20,15 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: single
+      type: pages
     values:
       author_profile: true
+      layout: single
 
 author:
   name: "Dominic Daprano"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Sometimes I do things" # Note: Markdown is allowed
+  bio: "Sometimes I do cool things"
   location: "Corvallis, Oregon"
   links:
     - label: "GitHub"
