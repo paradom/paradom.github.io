@@ -2,6 +2,8 @@ main:
   - title: "Research"
     url: /research/
   - title: "Posts"
-    url: /pages/
+    url: /posts/
+  - title: "Guides"
+    url: /guides/
   - title: "CV"
     url: /assets/docs/CV.pdf
