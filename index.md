@@ -2,6 +2,7 @@
 title: "" 
 layout: single
 permalink: /
+author_profile: true
 header:
   image: /assets/images/mountains.jpeg
 
@@ -12,4 +13,5 @@ in computation.
 
 I have been a undergraduate employee at [CQLS](https://cqls.oregonstate.edu/) for the past 2 years, where I have been
 able to explore my interests in machine learning and data science on a variety of [projects](/research/).
+
 

@@ -10,11 +10,14 @@ github_username: paradom
 teaser: /assets/images/mountains.jpeg
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+breadcrumbs: true
 
 defaults:
   # _posts
@@ -22,8 +25,24 @@ defaults:
       path: ""
       type: pages
     values:
-      author_profile: true
+      author_profile: false
       layout: single
+      related: true
+
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _resources
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
+      author_profile: false
+      share: false
 
 author:
   name: "Dominic Daprano"
