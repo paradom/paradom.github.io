@@ -1,15 +1,16 @@
 ---
 title: Quantum Mechanics
- categories:
+categories:
   - resources
 tags:
   - physics
 
 header:
-  image: /assets/images/qm.jpg
   teaser: /assets/images/qm.jpg
 
 ---
+
+The following document is an introduction to Quantum Mechanics and its applications.
 
 $$ \ket{\Psi} $$
 
